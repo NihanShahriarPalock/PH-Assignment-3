@@ -223,7 +223,7 @@
       </section>
 
       <!--Section of Program Sections -->
-      <section class="Program_Sections mt-6">
+      <section class="Program_sections mt-6">
         <div class="divide-y-2 divide-[#13131833] divide-dashed lg:mx-32 mx-2">
           <div></div>
           <div class="text-center">
@@ -234,56 +234,42 @@
               turpis placerat dolor. Purus urna in sit nullam proin.
             </p>
           </div>
-
-          <div class="grid lg:grid-cols-2 grid-cols-1 gap-3">
-            <div
-              class="bg-no-repeat mt-6 lg:mt-24 rounded-2xl opacity-50"
-              style="background-image: url(./images/program-1.png)"
-            >
-              <div class="rounded-2xl"></div>
-
-              <div class="text-white pb-5">
-                <h1 class="mb-5 pt-24 text-5xl font-bold">Junior Program</h1>
-                <p class="mb-5">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit <br />
-                  enim sagittis turpis in magna. Id et sed euismod natoque
-                  <br />
-                  amet nunc morbi nulla. Tortor congue sed et in.
-                </p>
-                <button
-                  class="btn bg-primary_color text-white font-bold text-xl border-none"
-                >
-                  Register Now!
-                </button>
-              </div>
-            </div>
-
-            <!-- 2nd Image  -->
-            <div
-              class="hero bg-no-repeat mt-6 lg:mt-24 rounded-2xl"
-              style="background-image: url(./images/program-2.png)"
-            >
-              <div class="hero-overlay bg-opacity-60 rounded-2xl"></div>
-
-              <div class="text-white p-10">
-                <h1 class="mb-5 text-5xl font-bold">Junior Program</h1>
-                <p class="mb-5">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit <br />
-                  enim sagittis turpis in magna. Id et sed euismod natoque
-                  <br />
-                  amet nunc morbi nulla. Tortor congue sed et in.
-                </p>
-                <button
-                  class="btn bg-primary_color text-white font-bold text-xl border-none"
-                >
-                  Register Now!
-                </button>
-              </div>
-            </div>
-          </div>
+          <div></div>
         </div>
+
+
+         <!-- Program Section Gallery -->
+        <div class="Program_Section_Gallery lg:mt-12 mt-6">
+
+          <div class=" lg:mx-32 mx-2 m-6 grid grid-cols-1 lg:grid-cols-2 gap-4  text-white">
+             <!-- 1st Image  -->
+            <div class="rounded-2xl pl-10 pr-10 bg-cover bg-no-repeat  bg-[linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/program-1.png)]">
+              <h1 class="pt-20 font-extrabold text-3xl ">Junior Program</h1>
+              <p class="mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque  amet nunc morbi nulla. Tortor congue sed et in.
+                <div><button class="mt-6 mb-10 btn bg-primary_color text-white border-none">Register Now!</button></div>
+            </div>
+
+            <!-- 2nd Image -->
+            <div class="rounded-2xl pl-10 pr-10 bg-cover bg-no-repeat  bg-[linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/program-2.png)]">
+              <h1 class="pt-20 font-extrabold text-3xl ">Teenager Program</h1>
+              <p class="mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis.  Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque  amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <div><button class="mt-6 mb-10 btn bg-primary_color text-white border-none">Register Now!</button></div>
+            </div>
+
+            <!-- 3rd Image -->
+            <div class="lg:col-span-2 rounded-2xl pl-10 pr-10 bg-center bg-cover bg-no-repeat  bg-[linear-gradient(180deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/program-3.png)]">
+              <h1 class="pt-20 font-extrabold text-3xl ">Professional Program</h1>
+              <p class="mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. <br> Elit elit 
+                enim sagittis turpis in magna. Id et sed euismod natoque <br> amet nunc morbi nulla. Tortor congue sed et in.</p>
+                <div><button class="mt-6 mb-10 btn bg-primary_color text-white border-none">Register Now!</button></div>
+            </div>
+
+          </div>
+
+        </div>
+
       </section>
 
       <!--Section of Our New Products -->
@@ -1078,8 +1064,8 @@
       </section>
     </main>
 
-    <footer class="footer p-5 lg:mt-24 mt-7 lg:p-24 bg-black text-txt_gray font-medium">
-        <aside>
+    <footer class="footer grid grid-cols-1 lg:grid-cols-none p-5 lg:mt-24 mt-7 lg:p-24 bg-black text-txt_gray font-medium">
+        <div class="">
             <h1 class="font-extrabold text-3xl text-white">Get In Touch</h1>
             <p class="mt-4">Dit amet consectetur. Condimentum  adipiscing aliquam <br>
              turpis placerat dolor. Purus urna in sit nullam proin. </p>
@@ -1103,30 +1089,35 @@
                 <div>016 3123 5014</div>
              </div>
      
-        </aside> 
-        <nav>
-          <header class="font-bold  text-xl text-white mb-7">Company</header> 
-          <a class="link link-hover">About Us</a>
-          <a class="link link-hover">Leadership</a>
-          <a class="link link-hover">Careers</a>
-          <a class="link link-hover">News & Article</a>
-          <a class="link link-hover">Legal Notice</a>
-        </nav> 
-        <nav>
-          <header class="font-bold text-white text-xl mb-7">Support</header> 
-          <a class="link link-hover">Help Center</a>
-          <a class="link link-hover">FAQ</a>
-          <a class="link link-hover">Ticket Support</a>
-          <a class="link link-hover">Contact Us</a>
-        </nav> 
-        <nav>
+        </div> 
+
+        <div class="grid-cols-2">
+          <div>
+            <header class="font-bold  text-xl text-white mb-7">Company</header> 
+            <a class="link link-hover">About Us</a>
+            <a class="link link-hover">Leadership</a>
+            <a class="link link-hover">Careers</a>
+            <a class="link link-hover">News & Article</a>
+            <a class="link link-hover">Legal Notice</a>
+          </div> 
+          <div>
+            <header class="font-bold text-white text-xl mb-7">Support</header> 
+            <a class="link link-hover">Help Center</a>
+            <a class="link link-hover">FAQ</a>
+            <a class="link link-hover">Ticket Support</a>
+            <a class="link link-hover">Contact Us</a>
+          </div> 
+        </div>
+        
+     
+        <div>
           <header class="font-bold text-white text-xl mb-7">Services</header> 
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
           <a class="link link-hover">Private Lesson</a>
           <a class="link link-hover">Hockeys for Kids</a>
           <a class="link link-hover">Hockeys for Adult</a>
-        </nav>
+        </div>
       </footer>
   </body>
 </html>
