@@ -7,29 +7,17 @@
     <title>Hockey - Dashboard</title>
 
     <!-- Tailwind and DaisyUI CDN -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Manrope Font CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"/>
 
     <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!-- Customized Script -->
     <script>
@@ -983,7 +971,7 @@
         <!--Input Form Section  -->
 
         <div class="input_form_part flex flex-col lg:flex-row mt-6">
-            
+  
             <div class="flex flex-col border-2 border-[#1313181A] rounded-2xl p-2 lg:p-6 w-full lg:w-1/3">
 
                 <div class="form_address pt-8 pl-8 bg-[#BCED6D1A] rounded-2xl w-full">
@@ -1030,29 +1018,29 @@
                   <div class="grid grid-cols-1 lg:grid-cols-2  gap-6">
                     <div>
                       <span class="label label-text">Your Name</span>                
-                    <input type="text" placeholder="Enter your full name" class="input input-bordered w-full" /> 
+                    <input type="text" placeholder="Enter your full name" class="input input-bordered bg-[#1313180D] w-full" /> 
                     </div> 
 
                     <div>
                       <span class="label label-text">Your Email</span>                
-                    <input type="email" placeholder="Enter your email" class="input input-bordered w-full" /> 
+                    <input type="email" placeholder="Enter your email" class="input input-bordered bg-[#1313180D] w-full" /> 
                     </div>
 
                     <div class="mt-2">
                       <span class="label label-text">Subject</span>                
-                    <input type="text" placeholder="Enter your subject" class="input input-bordered w-full" /> 
+                    <input type="text" placeholder="Enter your subject" class="input input-bordered bg-[#1313180D] w-full" /> 
                     </div>                    
                     <div class="mt-2">
                       <span class="label label-text">Phone Number</span>                
-                    <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full" /> 
+                    <input type="text" placeholder="Enter your phone number" class="input input-bordered bg-[#1313180D] w-full" /> 
                     </div>
                     <div class="mt-2 col-span-1 lg:col-span-2">
                       <span class="label label-text">Message </span> 
-                      <textarea class="w-full textarea textarea-bordered" placeholder="Bio" rows="10"></textarea>
+                      <textarea class="bg-[#1313180D] w-full textarea textarea-bordered" placeholder="Write your message" rows="10"></textarea>
                     </div>
 
-                    <div class="col-span-1 lg:col-span-2 text-white font-bold">
-                      <button class="bg-primary_color input input-bordered w-full">Send Message</button>
+                    <div class="col-span-1 lg:col-span-2 text-white  font-bold">
+                      <button class="bg-primary_color input input-bordered w-full border-none">Send Message</button>
                     </div>
 
                   </div>
@@ -1080,13 +1068,13 @@
       </section>
     </main>
 
-    <footer class="flex flex-col lg:flex-row justify-between  p-5 lg:mt-24 mt-7 lg:p-32  bg-black text-txt_gray font-medium">
-        <div class="">
+    <footer class="flex flex-col lg:flex-row justify-between mt-7 lg:mt-24 p-5 lg:p-32  bg-black text-txt_gray font-medium">
+        <div class="flex flex-col items-center lg:items-start">
             <h1 class="font-extrabold text-3xl text-white">Get In Touch</h1>
-            <p class="mt-4">Dit amet consectetur. Condimentum  adipiscing aliquam <br>
-             turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <address class="mt-4 text-center lg:text-justify">Local Office: 168/2 Amtola, Khilkhet<br>Dhaka, Bangladesh </address>
+            
 
-             <div class="flex space-x-4 mt-6">
+             <div class="flex space-x-4 mt-4">
                 <div>
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
                         <path d="M21.75 6.75V17.25C21.75 17.8467 21.5129 18.419 21.091 18.841C20.669 19.2629 20.0967 19.5 19.5 19.5H4.5C3.90326 19.5 3.33097 19.2629 2.90901 18.841C2.48705 18.419 2.25 17.8467 2.25 17.25V6.75M21.75 6.75C21.75 6.15326 21.5129 5.58097 21.091 5.15901C20.669 4.73705 20.0967 4.5 19.5 4.5H4.5C3.90326 4.5 3.33097 4.73705 2.90901 5.15901C2.48705 5.58097 2.25 6.15326 2.25 6.75M21.75 6.75V6.993C21.75 7.37715 21.6517 7.75491 21.4644 8.0903C21.2771 8.42569 21.0071 8.70754 20.68 8.909L13.18 13.524C12.8252 13.7425 12.4167 13.8582 12 13.8582C11.5833 13.8582 11.1748 13.7425 10.82 13.524L3.32 8.91C2.99292 8.70854 2.72287 8.42669 2.53557 8.0913C2.34827 7.75591 2.24996 7.37815 2.25 6.994V6.75" stroke="#FF4240" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -1107,9 +1095,9 @@
      
         </div> 
 
-        <div class=" flex  justify-evenly ">
+        <div class=" flex  justify-evenly mt-9 lg:mt-0 lg:gap-36 ">
           <div class="flex flex-col ">
-            <header class="font-bold  text-xl text-white mb-7">Company</header> 
+            <header class="font-bold text-white text-xl mb-4">Company</header> 
             <a class="link link-hover">About Us</a>
             <a class="link link-hover">Leadership</a>
             <a class="link link-hover">Careers</a>
@@ -1117,7 +1105,7 @@
             <a class="link link-hover">Legal Notice</a>
           </div> 
           <div class="flex flex-col">
-            <header class="font-bold text-white text-xl mb-7">Support</header> 
+            <header class="font-bold text-white text-xl mb-4">Support</header> 
             <a class="link link-hover">Help Center</a>
             <a class="link link-hover">FAQ</a>
             <a class="link link-hover">Ticket Support</a>
@@ -1126,8 +1114,8 @@
         </div>
         
      
-        <div class="flex flex-col">
-          <header class="font-bold text-white text-xl mb-7">Services</header> 
+        <div class="flex flex-col justify-center items-center">
+          <header class="font-bold text-white text-xl mb-4 mt-9 lg:mt-0">Services</header> 
           <a class="link link-hover">Academy</a>
           <a class="link link-hover">Group Lesson</a>
           <a class="link link-hover">Private Lesson</a>
